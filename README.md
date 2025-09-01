@@ -1,9 +1,9 @@
-<div>
+<div align="center">
 
-<a href=""><img src="./src/assets/img/logo.png"/></a>
+<a href="https://cp-1-front-end-imc.vercel.app/"><img src="./src/assets/img/logo.png" width="300px"/></a>
 </div>
 
-[imc.com.br]()
+acessar: [imc.com.br](https://cp-1-front-end-imc.vercel.app/)
 
 # Sobre o projeto
 O **IMC** é uma aplicação desenvolvida em **React** que calcula o **Índice de Massa Corporal** de forma simples e rápida.  
