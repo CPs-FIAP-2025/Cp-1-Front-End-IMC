@@ -29,6 +29,10 @@ function App() {
       <div className="hero">
         <div className="apresentacao">
           <h1>Descubra se está no peso ideal!</h1>
+          <h2>A Calculadora de IMC (Índice de Massa Corporal) é uma ferramenta simples que ajuda você a entender
+            se o seu peso está adequado para a sua altura. Basta inserir seus dados e, em segundos, você terá uma noção
+            clara da sua classificação — abaixo do peso, dentro da faixa ideal, sobrepeso ou obesidade. Use essa informação
+            como um ponto de partida para cuidar melhor da sua saúde e bem-estar.</h2>
         </div>
         <div className="cards">
           <form>
