@@ -1,6 +1,7 @@
 import './css/style.css'
 import { useState } from "react"
 import Resultado from "./components/Resultado";
+import Header from './components/Header';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <>
+      <Header/>
       <div className="hero">
         <div className="apresentacao">
           <h1>Descubra se está no peso ideal!</h1>
