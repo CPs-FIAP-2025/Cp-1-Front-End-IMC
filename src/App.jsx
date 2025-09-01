@@ -1,8 +1,8 @@
 import './css/style.css'
 import { useState } from "react"
+import Header from "./components/Header"
 import Resultado from "./components/Resultado";
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
       <div className="hero">
         <div className="apresentacao">
           <h1>Descubra se está no peso ideal!</h1>
@@ -67,7 +67,7 @@ function App() {
         )}
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </>
   )
 }

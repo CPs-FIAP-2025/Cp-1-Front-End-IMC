@@ -1,10 +1,11 @@
 import '../css/footer.css'
+import logo from '../assets/img/logo.png'
 
 function Footer(){
     return(
         <footer>
             <div className="logo">
-                <a href="#"><img src="" alt="logo IMC" /></a>
+                <a href="#"><img src={logo} alt="logo IMC" /></a>
             </div>
             <div className="social-links">
                 <a href="https://www.instagram.com/leeosilvp/" target='_blank'><i className='fa-brands fa-instagram'></i></a>

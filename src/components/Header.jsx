@@ -1,10 +1,11 @@
 import '../css/header.css'
+import logo from '../assets/img/logo.png'
 
 function Header(){
     return(
         <header>
             <div className="logo">
-                <a href="#"><img src="" alt="logo IMC" /></a>
+                <a href="#"><img src={logo} alt="logo IMC" /></a>
             </div>
             <div className="nav">
                 <nav>
