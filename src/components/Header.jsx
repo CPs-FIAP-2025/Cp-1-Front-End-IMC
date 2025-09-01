@@ -1,3 +1,5 @@
+import '../css/header.css'
+
 function Header(){
     return(
         <header>
@@ -8,8 +10,8 @@ function Header(){
                 <nav>
                     <ul>
                         <li><a href="#"><i className='fa-regular fa-house'></i> Home</a></li>
-                        <li><a href="#" target='_blank'><i className='fa-brands fa-linkedin-in'></i> Linkedin</a></li>
-                        <li><a href="#" target='_blank'><i className='fa-brands fa-github'></i> GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/leeosilvp/" target='_blank'><i className='fa-brands fa-linkedin-in'></i> Linkedin</a></li>
+                        <li><a href="https://github.com/leoosilvp" target='_blank'><i className='fa-brands fa-github'></i> GitHub</a></li>
                     </ul>
                 </nav>
             </div>
